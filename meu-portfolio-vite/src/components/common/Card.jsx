@@ -1,9 +1,14 @@
 import React from 'react';
 
-const Card = ({ children, className = '', hoverEffect = true }) => {
-  const hoverStyles = hoverEffect ? "transform hover:scale-105 transition-transform duration-300" : "";
+const Card = ({ children, className = '' }) => {
   return (
-    <div className={`bg-gray-800 rounded-xl overflow-hidden shadow-2xl ${hoverStyles} ${className}`}>
+    <div 
+      className={`
+        glass-effect rounded-2xl overflow-hidden 
+        transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/10 
+        group ${className}
+      `}
+    >
       {children}
     </div>
   );
