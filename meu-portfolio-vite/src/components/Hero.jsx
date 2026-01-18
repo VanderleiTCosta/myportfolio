@@ -49,7 +49,7 @@ const Hero = () => {
             <a href="https://linkedin.com/in/vanderleitcosta" target="_blank" className="hover:text-blue-400 transition-colors hover:scale-110 transform duration-200">
                 <FaLinkedin size={28} />
             </a>
-            <a href="https://wa.me/seunumerosaqui" target="_blank" className="hover:text-green-400 transition-colors hover:scale-110 transform duration-200">
+            <a href="https://wa.me/5588992236762" target="_blank" className="hover:text-green-400 transition-colors hover:scale-110 transform duration-200">
                 <FaWhatsapp size={28} />
             </a>
           </div>
